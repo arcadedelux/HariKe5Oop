@@ -2,6 +2,16 @@ package HariKe5Oop.Oop;
 
 public class Mobil extends Kendaraan{
 
+public Mobil(){
+  super(4);
+  System.out.println("ini contructor di panggil ketika di inisiasi");
+}
+
+public Mobil(String nama){
+  super(5);
+  this.nama = nama;
+  System.out.println(String.format("variabel nama ber isi %s",this.nama));
+}
 private String nama;
 
 public void setNama(String nama){

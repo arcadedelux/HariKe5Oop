@@ -2,6 +2,10 @@ package HariKe5Oop.Oop;
 
 public class Kendaraan{
 
+public Kendaraan(Integer jumlahRoda){
+  this.jumlahRoda = jumlahRoda;
+}
+
 private Integer jumlahRoda=4;
 private String pabrik;
 

@@ -3,6 +3,9 @@ package HariKe5Oop.Oop.Model;
 import HariKe5Oop.Oop.Kendaraan;
 
 public class Motor extends Kendaraan{
+  public motor(){
+    super(4);
+  }
   public string getNamaPabrik(){
 
   return "Yamaha";
